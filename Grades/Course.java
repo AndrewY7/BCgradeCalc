@@ -11,6 +11,10 @@ public class Course {
         this.courseWeight = courseWeight;
     }
 
+    public double getWeightedGrade() {
+        return (courseGrade * courseWeight) / 100;
+    }
+
     public String getCourseName() {
         return courseName;
     }
