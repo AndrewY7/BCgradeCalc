@@ -13,7 +13,9 @@ public class GradeCalculator {
         grades.add(course);
     }
 
-    public Calculate(List<Course> grades) {
+    public double Calculate(List<Course> grades) {
         this.grades = grades;
+
+        return grades[0] + 10;
     }
 }
