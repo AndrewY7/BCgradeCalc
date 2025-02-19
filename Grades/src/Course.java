@@ -1,4 +1,4 @@
-package Grades;
+package Grades.src;
 
 public class Course {
     private String courseName;
