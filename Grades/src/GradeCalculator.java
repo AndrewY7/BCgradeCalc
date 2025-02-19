@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class GradeCalculator {
-    private List<Course> grades;
+    public List<Course> grades;
 
     public GradeCalculator() {
         this.grades = new ArrayList<>();
@@ -14,8 +14,6 @@ public class GradeCalculator {
     }
 
     public double CalculateGrade(List<Course> grades) {
-        this.grades = grades;
-
         double totalWeightedGrade = 0;
         double totalWeight = 0;
 
