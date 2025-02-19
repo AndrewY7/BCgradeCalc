@@ -28,11 +28,4 @@ public class GradeCalculator {
 
         return totalWeightedGrade / totalWeight;
     }
-
-    public double CalculateFinalExamGrade(double desiredGrade, double finalWeight, List<Course> grades) {
-        double currentGrade = CalculateGrade(grades);
-        double currentWeight = 100 - finalWeight;
-
-        return (desiredGrade - (currentGrade * (currentWeight / 100))) / (finalWeight / 100);
-    }
 }

@@ -15,7 +15,5 @@ public class TestGCalc {
         gCalc.addGrade(course3);
         gCalc.addGrade(course4);
         System.out.println("Current Grade: " + gCalc.CalculateGrade(gCalc.grades));
-        System.out.println("Final Exam Grade: " + gCalc.CalculateFinalExamGrade(90, 30, gCalc.grades));
-
     }
 }
